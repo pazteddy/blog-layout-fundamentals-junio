@@ -1,0 +1,335 @@
+/* General Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  margin-block: 48px;
+}
+
+/* General Blocks */
+
+.section {
+  padding-block: 48px;
+}
+
+.container {
+  padding-inline: 32px;
+  max-width: 1280px;
+  margin-inline: auto;
+}
+
+/* Header */
+.header {
+  padding: 24px 32px;
+  max-width: 1280px;
+  margin-inline: auto;
+}
+
+.header > * {
+  display: inline-block;
+}
+
+.header__logo {
+  margin: 0;
+  margin-right: 64px;
+}
+
+/* Navigation */
+
+.navigation ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation li {
+  display: inline-block;
+  padding: 8px;
+  margin-right: 8px;
+}
+
+/* Footer */
+
+.footer {
+  padding-block: 32px;
+  text-align: center;
+  border-top: 1px solid #d4d4d8;
+}
+
+.footer .social-links {
+  margin: 0 auto;
+  margin-bottom: 32px;
+}
+
+/* Social Links */
+.social-links {
+  list-style: none;
+  padding: 0;
+  width: fit-content;
+}
+
+.social-links li {
+  display: inline-block;
+  margin-right: 40px;
+}
+
+.social-links li:last-child {
+  margin-right: 0px;
+}
+
+/* Hero */
+
+.hero {
+  background-color: #f5f5f5;
+}
+
+.container {
+  padding-inline: 32px;
+  max-width: 1280px;
+  margin-inline: auto;
+}
+
+.hero__content {
+  max-width: 672px;
+}
+
+.hero__title {
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+.hero__lead {
+  margin-block: 24px;
+}
+
+.hero--center {
+  text-align: center;
+  margin-inline: auto;
+}
+
+/* Articles section */
+
+.articles-section {
+  max-width: 672px;
+  margin-inline: auto;
+}
+
+.articles-section__title {
+  margin: 0;
+}
+
+/* Article summary */
+
+.article-summary {
+  max-width: 576px;
+}
+
+.article-metadata {
+  margin-bottom: 12px;
+}
+
+/* Article metadata */
+
+.article-metadata__date {
+  margin-right: 16px;
+}
+
+/* Category tag */
+.category-tag {
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: #fafafa;
+  border-radius: 9999px;
+}
+
+.article-summary__content {
+  display: block;
+}
+
+.article-summary__title {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.article-summary__text {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.article-summary__footer {
+  margin-top: 32px;
+}
+
+/* Author */
+
+.author > * {
+  display: inline-block;
+}
+
+.author__avatar {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.author__info {
+  margin-left: 16px;
+}
+
+.author__info > * {
+  display: block;
+}
+
+/* Article section */
+
+.article {
+  max-width: 672px;
+  margin-inline: auto;
+}
+
+.article__header {
+  margin-bottom: 16px;
+}
+
+.article__header .article-metadata {
+  margin-bottom: 8px;
+}
+
+/* Content */
+
+.content h1 {
+  margin-top: 0;
+  margin-bottom: 32px;
+}
+
+.content h2 {
+  margin-top: 48px;
+  margin-bottom: 24px;
+}
+
+.content h3 {
+  margin-top: 32px;
+  margin-bottom: 12px;
+}
+
+.content h4 {
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+.content img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-block: 32px;
+  border-radius: 6px;
+}
+
+.content figure {
+  margin-block: 32px;
+}
+
+.content figure img {
+  margin-block: 0;
+}
+
+.content figure figcaption {
+  margin-top: 12;
+  margin-bottom: 0;
+}
+
+.content ol,
+.content ul {
+  margin-block: 20px;
+  padding-left: 32px;
+}
+
+.content li {
+  margin-block: 8px;
+}
+
+.content li p {
+  margin-block: 12px;
+}
+
+.content hr {
+  margin-block: 48px;
+}
+
+.content p {
+  margin-block: 20px;
+}
+
+.content code::before,
+.content code::after {
+  content: "`";
+}
+
+.content pre {
+  margin-block: 24px;
+  padding: 12px 16px;
+  background: #27272a;
+  border-radius: 6px;
+  color: #e4e4e7;
+  overflow: auto;
+}
+
+.content pre code::before,
+.content pre code::after {
+  content: unset;
+}
+
+.content table {
+  margin-block: 32px;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.content th {
+  padding: 0 8px 8px;
+}
+
+.content th:first-child,
+.content td:first-child {
+  padding-left: 0;
+}
+
+.content th:last-child,
+.content td:last-child {
+  padding-right: 0;
+}
+
+.content td {
+  padding: 8px;
+}
+
+.content th {
+  border-bottom: 1px solid #d4d4d8;
+}
+
+.content td {
+  border-bottom: 1px solid #e4e4e7;
+}
+
+.content tr:last-child td {
+  border-bottom: unset;
+}
+
+.content h2 + *,
+.content h3 + *,
+.content h4 + * {
+  margin-top: 0;
+}
+
+.content > *:first-child {
+  margin-top: 0;
+}
+
+.content > *:last-child {
+  margin-bottom: 0;
+}
